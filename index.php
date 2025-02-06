@@ -37,6 +37,7 @@
                 <td>{$row['hobbies']}</td>
                 <td><img src='{$row['display_pic']}' width='50'></td>
                 <td>
+                    <a href='view.php?id={$row['id']}'>View</a> |
                     <a href='edit.php?id={$row['id']}'>Edit</a> |
                     <a href='#' onclick='confirmDelete({$row['id']})'>Delete</a>
                 </td>
